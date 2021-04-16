@@ -1,5 +1,3 @@
-we will <br>
-
 First, install everything with our requirements.txt file <br>
 ```
 pip3 install -r requirements.txt
