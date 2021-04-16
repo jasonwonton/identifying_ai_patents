@@ -17,6 +17,7 @@ python3 scraper.py
 
 After this is done, we can unzip into a master directory. <br> 
 ```
+cd ../Downloads
 unzip *.zip -d USPTO_Patent_Dir
 ```
 
