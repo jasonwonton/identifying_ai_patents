@@ -13,7 +13,11 @@ for year in range(2000, 2021):
         if "zip" in link["href"]:
             download_link = main_url+link["href"]
             download_links.append(download_link)
-            print(download_link)
+            
+print("Finished grabbing download links... writing it to links.txt")
+
+with open("links.txt", "w") as f:
+    f.write(str(download_links))
 
 #Downloading
 from selenium import webdriver
