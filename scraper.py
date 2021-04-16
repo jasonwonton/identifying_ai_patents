@@ -27,7 +27,7 @@ import time
 
 #Sleep for 5 seconds between as to not overload their servers and get denied
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
-for i in download_links[:3]:
+for i in download_links:
     try:
         print("Attempt to Download {}".format(i))
         driver.get(i)
